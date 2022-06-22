@@ -22,7 +22,7 @@ function printProjectData(name, type, hourlyRate, dueDate) {
   var projectNameTdEl = $('<td>').addClass('p-2').text(name);
 
   //todo: add more virtual elements to complete the table
-  var projectTypeTdEl;
+  var projectTypeTdEl = $('<td>').addClass('p-2').text(type);
   var rateTdEl;
   var dueDateTdEl;
 
@@ -52,7 +52,7 @@ function printProjectData(name, type, hourlyRate, dueDate) {
   projectDisplayEl.append(projectRowEl);
 
   //todo: Explain what does the following does and if we need it at all!
-  projectModalEl.modal('hide');
+  // projectModalEl.modal('hide');
 }
 
 
