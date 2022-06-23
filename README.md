@@ -1,2 +1,3 @@
-# MSU-VIRT-FSF-PT-05-2022-U-LOLC
+# B McCool, Summer 2022
+Michigan State University Fullstack WebDevelopment Repository
 
